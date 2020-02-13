@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="gallows">
+        <img src="" alt="" id="gallows-img">
+    </div>
+
+    <div class="strikes">
+        <p id="strike-output">Strikes Left: 6</p>
+        <br>
+        <p id="guessed-letters"></p>
+    </div>
+
+    <div class="display-word">
+        <p id="printed-word"></p>
+    </div>
+
+    <div class="guess">
+        <form action="" id="user-form">
+            <p>Make a guess:</p>
+            <input type="text" id="user-input" maxlength="1">
+            <input type="submit" value="Guess!">
+        </form>
+    </div>
+</body>
+<script src="scripts/script.js"></script>
+</html>
